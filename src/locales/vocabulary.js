@@ -1186,6 +1186,7 @@ export default {
   'climbing_rock.tuff': 'tuff',
 
   'climbing_start.label': 'Start',
+  'climbing_routes.label': 'Number of routes',
   'climbing_start.sit': 'sit start',
   'climbing_start.stand': 'stand start',
   'climbing_start.low': 'low start',

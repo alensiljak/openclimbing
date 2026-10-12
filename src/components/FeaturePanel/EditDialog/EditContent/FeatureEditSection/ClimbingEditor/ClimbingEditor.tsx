@@ -21,6 +21,7 @@ import { ClimbingGradesEditor } from './ClimbingGradesEditor';
 import { DrawClimbingRoutesBanner } from './DrawClimbingRoutesBanner';
 import { ClimbingRockSelect } from '../ClimbingRockSelect';
 import { ClimbingStartSelect } from '../ClimbingStartSelect';
+import { ClimbingRoutesCountInput } from '../ClimbingRoutesCountInput';
 import { EditSectionCard } from '../../EditSectionCard';
 
 const IconContainer = styled.div`
@@ -150,6 +151,7 @@ export const ClimbingEditor = () => {
             <ClimbingGradesEditor />
             <ClimbingRockSelect />
             <ClimbingStartSelect />
+            <ClimbingRoutesCountInput />
             <ClimbingMultiValuesInner />
           </Box>
         </AccordionDetails>
